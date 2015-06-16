@@ -42,7 +42,6 @@ const QList<QString> Sefa :: getTestResults()
 }
 int Sefa :: testResult()
 {
-
-
+	return 0;
 }
 

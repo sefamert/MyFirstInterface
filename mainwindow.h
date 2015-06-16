@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QVariant>
 
 #include "testselectionwidget.h"
 
@@ -16,15 +17,16 @@ class MainWindow : public QMainWindow
 public:
 	explicit MainWindow(QWidget *parent = 0);
 	~MainWindow();
-	int finalchoose;
 	QString name;
-	QString surname;
-	QString site;
+	QString filename;
 
 public slots:
 	void on_pushButton_clicked();
 
 	void on_pushButton_2_clicked();
+
+private slots:
+	void on_pushButton_3_clicked();
 
 private:
 	Ui::MainWindow *ui;

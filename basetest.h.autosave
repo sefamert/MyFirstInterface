@@ -26,7 +26,7 @@ public:
 	void setTestParameter(QString &name, QVariant &par,QString &filename);
 
 	/*içleri doldurulacak*/
-	const QHash<QString, QVariant> getTestParameter();
+	const QHash<QString, QVariant> getTestParameters();
 	int saveTest(const QString &filename);
 	int loadTest(const QString &filename);
 

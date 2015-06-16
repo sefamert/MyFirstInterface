@@ -17,9 +17,12 @@ public:
 
 	QString name;
 	QString surname;
-	QString site;
+	QString filename;
 protected:
 	void closeEvent(QCloseEvent *ev);
+private slots:
+	void on_pushButton_clicked();
+
 private:
 	Ui::NameAndSite *ui;
 };

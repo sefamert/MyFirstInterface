@@ -18,7 +18,7 @@ public:
 	int choose;
 	QString name;
 	QString surname;
-	QString site;
+	QString filename;
 private slots:
 
 	void on_pushButton_clicked();
@@ -30,7 +30,7 @@ private slots:
 	void on_pushButton_4_clicked();
 
 protected:
-	int closeEvent(int ev);
+	int closeEvent(QCloseEvent ev);
 private:
 	Ui::TestSelectionWidget *ui;
 };

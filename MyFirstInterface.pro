@@ -17,14 +17,15 @@ SOURCES += main.cpp\
     testselectionwidget.cpp \
     nameandsite.cpp \
     basetest.cpp \
-    sefa.cpp
+    filename.cpp
 
 HEADERS  += mainwindow.h \
     testselectionwidget.h \
     nameandsite.h \
     basetest.h \
-    sefa.h
+    filename.h
 
 FORMS    += mainwindow.ui \
     testselectionwidget.ui \
-    nameandsite.ui
+    nameandsite.ui \
+    filename.ui

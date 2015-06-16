@@ -1,6 +1,7 @@
 #include "testselectionwidget.h"
 #include "ui_testselectionwidget.h"
 #include "nameandsite.h"
+#include "basetest.h"
 
 #include <QDebug>
 
@@ -26,8 +27,8 @@ void TestSelectionWidget::on_pushButton_clicked()
 		QApplication::processEvents();
 	name=n.name;
 	surname=n.surname;
-	site=n.site;
-	qDebug() << n.name << n.surname<<n.site;
+	filename=n.filename;
+	qDebug() << n.name << n.surname<<n.filename;
 	choose=1;
 }
 
@@ -39,8 +40,8 @@ void TestSelectionWidget::on_pushButton_2_clicked()
 		QApplication::processEvents();
 	name=n.name;
 	surname=n.surname;
-	site=n.site;
-	qDebug() << n.name << n.surname<<n.site;
+	filename=n.filename;
+	qDebug() << n.name << n.surname<<n.filename;
 	choose=2;
 }
 
@@ -52,8 +53,8 @@ void TestSelectionWidget::on_pushButton_3_clicked()
 		QApplication::processEvents();
 	name=n.name;
 	surname=n.surname;
-	site=n.site;
-	qDebug() << n.name << n.surname<<n.site;
+	filename=n.filename;
+	qDebug() << n.name << n.surname<<n.filename;
 	choose=3;
 
 }
